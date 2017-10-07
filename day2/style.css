@@ -1,0 +1,16 @@
+
+body {
+    background: turquoise;
+}
+table {
+    background: white;
+    width: 100%;
+
+}
+td {
+    padding: 10px;
+    text-align: left;
+}
+img {
+    border-radius: 100%;
+}
