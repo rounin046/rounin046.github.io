@@ -44,6 +44,7 @@ p,h3 {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     text-align: center;
     clear: both;
+    margin: 10rem 0;
 }
 .container  {
     padding: 100px;
