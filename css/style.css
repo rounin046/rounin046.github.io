@@ -1,0 +1,80 @@
+.btn {
+  border-radius: 0;
+}
+
+.btn-success {
+  background-color: #0c631b;
+}
+.intro {
+  margin: 10rem 0;
+}
+.header {
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  overflow: hidden;
+
+}
+.about {
+  background: #fff;
+  color: #000000;
+  overflow: hidden;
+}
+.aintro {
+  margin: 6rem 0;
+}
+.overlay{
+  background: rgba(44, 44, 44, 0.50);
+  color: #fff;
+  overflow: hidden;
+}
+.overlaynav{
+  background: rgba(30, 30, 30, 0.93);
+  color: #fff;
+  overflow: hidden;
+}
+.btn, .btn:hover {
+  text-transform: uppercase;
+  color: #00e0d0;
+  border-color: #00e0d0;
+}
+.btn:hover {
+  background-color: #00e0d0;
+  color: #000;
+}
+/* slider */
+#slider-home .carousel-indicators {
+  position: relative;
+  top: 3rem;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.panel-footer{
+  background: black;
+  color: white;
+}
+.img-thumbnail{
+  height: 250px;
+  width: 400px;
+}
+.map{
+  overflow: hidden;
+}
+.mintro{
+  margin: 2rem 0;
+}
+@media screen and(max-width){
+  .map{
+    width:100%
+  }
+  
+}
+.col{
+  align:justify;
+}
