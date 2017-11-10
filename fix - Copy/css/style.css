@@ -9,26 +9,26 @@
   margin: 10rem 0;
 }
 .header {
-  background-image: url(../img/header.jpg);
+  background-image: url(../img/pinus.jpg);
   background-size: cover;
   overflow: hidden;
 
 }
 .about {
-  background: #fff;
-  color: #000000;
+  background: #F05F40;
+  color: #fff;
   overflow: hidden;
 }
 .aintro {
   margin: 6rem 0;
 }
 .overlay{
-  background: rgba(44, 44, 44, 0.50);
+  background: rgba(63, 29, 94, 0.5);
   color: #fff;
   overflow: hidden;
 }
 .overlaynav{
-  background: rgba(30, 30, 30, 0.93);
+  background: rgb(63, 29, 94);
   color: #fff;
   overflow: hidden;
 }
@@ -69,12 +69,9 @@
 .mintro{
   margin: 2rem 0;
 }
-@media screen and(max-width){
+@media screen add (max-width){
   .map{
     width:100%
   }
   
-}
-.col{
-  align:justify;
 }
