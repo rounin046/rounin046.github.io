@@ -6,10 +6,10 @@
   background-color: #0c631b;
 }
 .intro {
-  margin: 10rem 0;
+  margin: 0rem 0;
 }
-.header{
-  background-image: url(../img/header.jpg);
+.header img{
+  
   background-size: cover;
 }
 .about {
@@ -18,7 +18,7 @@
   overflow: hidden;
 }
 .aintro {
-  margin: 6rem 0;
+  margin: 3rem 0;
 }
 .overlay{
   background: rgba(44, 44, 44, 0.50);
@@ -45,7 +45,7 @@ nav{
 /* slider */
 #slider-home .carousel-indicators {
   position: relative;
-  top: 8rem;
+  top: 1rem;
 }
 .carousel-indicators li {
   width: 10px;
@@ -102,32 +102,4 @@ h1,h2{
 .about p{
   font-size: 12pt;
   font-family: 'Trebuchet MS','Times New Roman', Times, serif;
-}
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 2px;
-  box-sizing: border-box;
-  margin-top: 2px;
-  margin-bottom: 10px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #007bff;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #00e0d0;
-}
-.x {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
 }
